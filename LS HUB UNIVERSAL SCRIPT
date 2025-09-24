@@ -667,29 +667,3 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
-
-local Tab = Window:CreateTab("Genesis FE (Universal)", 4483362458) -- Title, Image
-
-local Button = Tab:CreateButton({
-   Name = "Neptunian V",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
-end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Goner",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))()
-end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Good Cop Bad Cop",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Good%20Cop%20Bad%20Cop"))()
-end,
-})
