@@ -273,6 +273,14 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Pixel-Blade-Ancient-Sands-Un
 end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "S0ftkillz",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://gist.githubusercontent.com/user75335836/0fa801173beefb96587ae888922c7af4/raw/88afb674dc6d19aaa9c5fa3ebedee9811be4509f/gistfile1.txt"))()
+end,
+})
+
 local Tab = Window:CreateTab("Blox Fruits", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
