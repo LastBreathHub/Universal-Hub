@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Last Breath Hub",
+   Name = "Last Breath Hub (WIP)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Universal Hub",
    LoadingSubtitle = "by ZEL",
@@ -168,3 +168,19 @@ local Button = Tab:CreateButton({
 })
 
 local Tab = Window:CreateTab("Plants Vs Brainrots", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Tora IsMe",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/PlantsVsBrainrots"))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "JN Hub",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Plants-vs-brainrots/refs/heads/main/JN%20HH%20Gaming",true))()
+end,
+})
