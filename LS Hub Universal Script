@@ -184,3 +184,21 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Plants-vs-brainrots/refs/heads/main/JN%20HH%20Gaming",true))()
 end,
 })
+
+local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Kryptonite",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bitcoinlol/Kryptonite-free/refs/heads/main/Protected_5085813520974140.lua.txt"))()
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blood Moon",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fishisback/Moonlight/refs/heads/main/Moonlight.lua"))()
+end,
+})
