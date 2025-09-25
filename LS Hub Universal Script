@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
    Name = "Last Breath Hub (WIP)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Universal Hub",
-   LoadingSubtitle = "by ZEL",
+   LoadingSubtitle = "by M1sty",
    ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "DarkBlue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -196,9 +196,9 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "Blood Moon",
+   Name = "NodeX",
    Callback = function()
    -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Fishisback/Moonlight/refs/heads/main/Moonlight.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NodeX-Enc/NodeX/refs/heads/main/Main.lua"))()
 end,
 })
