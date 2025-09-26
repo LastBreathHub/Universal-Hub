@@ -230,9 +230,8 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "CapybaraScript",
+   Name = "XHub (NOT WORKING)",
    Callback = function()
    -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Mathersg4/MM2/refs/heads/main/OverDriveH", true))()
 end,
 })
