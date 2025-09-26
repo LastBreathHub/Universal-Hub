@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Last Breath Hub (WIP)",
+   Name = "Last Breath Hub | NOT ALPHABETICAL (WIP)",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Universal Hub",
    LoadingSubtitle = "by M1sty",
@@ -139,7 +139,8 @@ local Button = Tab:CreateButton({
    Name = "Polluted",
    Callback = function()
    -- The function that takes place when the button is pressed
-   end,
+loadstring(game:HttpGet("https://rawscripts.net/raw/Pixel-Blade-TAKEOVER-PIXEL-BLADE-NO-KEY-54119"))()
+end,
 })
 
 
