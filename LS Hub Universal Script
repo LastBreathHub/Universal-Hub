@@ -252,3 +252,13 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
 end,
 })
+
+local Tab = Window:CreateTab("Ninja Legends", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "ZhenX",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/Ninja_Legends/refs/heads/main/source",true))()
+end,
+})
