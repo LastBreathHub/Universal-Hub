@@ -37,7 +37,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab(🌲 | 99 Nights In The Forest", nil) -- Title, Image
+local Tab = Window:CreateTab(99 Nights In The Forest", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("99 NITF")
 
@@ -65,7 +65,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkenedEssence/DarkE
 end,
 })
 
-local Tab = Window:CreateTab("🙂 | Find The Noobies", nil) -- Title, Image
+local Tab = Window:CreateTab("Find The Noobies", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "Arch-Vault",
@@ -82,7 +82,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("🗡️ | Block Tales", nil) -- Title, Image
+local Tab = Window:CreateTab("Block Tales", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "TexRBLX",
@@ -92,7 +92,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TexRBLX/Roblox-stuff/
 end,
 })
 
-local Tab = Window:CreateTab("🔪 | Forsaken", nil) -- Title, Image
+local Tab = Window:CreateTab("Forsaken", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "B0bby Hub",
@@ -117,7 +117,7 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-YARHM-12403
 end,
 })
 
-local Tab = Window:CreateTab("⚔️ | Pixel Blade", nil) -- Title, Image
+local Tab = Window:CreateTab("Pixel Blade", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "TexRBLX",
@@ -143,7 +143,7 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Pixel-Blade-TAKEOVER-PIXEL-B
 end,
 })
 
-local Tab = Window:CreateTab("🍎 | Blox Fruits", nil) -- Title, Image
+local Tab = Window:CreateTab("Blox Fruits", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "Redz Hub",
@@ -166,7 +166,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
 end,
 })
 
-local Tab = Window:CreateTab("🦈 | Steal A Brainrot", nil) -- Title, Image
+local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "Chilli Hub",
@@ -191,7 +191,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/onliengamerop/Steal-a
 end,
 })
 
-local Tab = Window:CreateTab("🌻 | Plants Vs Brainrots", nil) -- Title, Image
+local Tab = Window:CreateTab("Plants Vs Brainrots", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "Tora IsMe",
@@ -209,7 +209,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Plants-vs-
 end,
 })
 
-local Tab = Window:CreateTab("🗡️🏐 | Blade Ball", nil) -- Title, Image
+local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "Kryptonite",
@@ -235,7 +235,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/redopy7/Blade-Ball/re
 end,
 })
 
-local Tab = Window:CreateTab("🔪 | Murder Mystery 2", nil) -- Title, Image
+local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "YARHM",
