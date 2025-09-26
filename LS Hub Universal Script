@@ -168,18 +168,11 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Ajjan Hub",
+   Name = "Ajjan Hub (NEEDS KEY)",
    Callback = function()
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://raw.githubusercontent.com/onliengamerop/Steal-a-brainrot/refs/heads/main/Protected_3771863424757750.lua.txt"))()
 end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Key: ",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-   end,
 })
 
 local Tab = Window:CreateTab("Plants Vs Brainrots", 4483362458) -- Title, Image
