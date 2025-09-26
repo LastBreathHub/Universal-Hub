@@ -37,7 +37,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("🌲 | 99 Nights In The Forest", nil) -- Title, Image
+local Tab = Window:CreateTab(🌲 | 99 Nights In The Forest", nil) -- Title, Image
 
 local Section = Tab:CreateSection("99 NITF")
 
@@ -82,7 +82,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("🗡️ | Block Tales", ) -- Title, Image
+local Tab = Window:CreateTab("🗡️ | Block Tales", nil) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "TexRBLX",
@@ -209,7 +209,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Plants-vs-
 end,
 })
 
-local Tab = Window:CreateTab("🗡️🏐 | Blade Ball", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("🗡️🏐 | Blade Ball", nil) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "Kryptonite",
@@ -235,7 +235,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/redopy7/Blade-Ball/re
 end,
 })
 
-local Tab = Window:CreateTab("🔪 | Murder Mystery 2", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("🔪 | Murder Mystery 2", nil) -- Title, Image
 
 local Button = Tab:CreateButton({
    Name = "YARHM",
