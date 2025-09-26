@@ -203,6 +203,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/onliengamerop/Steal-a
 end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Lumin Hub (NEEDS KEY)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua", true))()
+end,
+})
+
+
 local Tab = Window:CreateTab("Plants Vs Brainrots", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
