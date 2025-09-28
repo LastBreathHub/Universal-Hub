@@ -47,6 +47,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Emote Pack",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://yarhm.mhi.im/scr?channel=afemmax"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Defy-cloud/128d2dfc5030202b6d072807a89a790c/raw/043331f680a7d5954f0a1f9370560851ab3e3205/EmotePackFixer.lua"))()
+end,
+})
+
 local Tab = Window:CreateTab("99 Nights In The Forest", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("99 NITF")
