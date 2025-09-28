@@ -43,7 +43,8 @@ local Button = Tab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
    -- The function that takes place when the button is pressed
-   end,
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+end,
 })
 
 local Tab = Window:CreateTab("99 Nights In The Forest", 4483362458) -- Title, Image
