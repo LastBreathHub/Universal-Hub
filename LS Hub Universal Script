@@ -106,10 +106,13 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "Key: skiddojawa467",
+   Name = "Key: skiddojawa467 (CLICK TO COPY THE KEY)",
    Callback = function()
    -- The function that takes place when the button is pressed
-   end,
+pcall(function()
+setclipboard("skiddojawa467")
+end)
+end,
 })
 
 local Tab = Window:CreateTab("Block Tales", 4483362458) -- Title, Image
@@ -208,10 +211,13 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "Key: Svarka813Scripts",
+   Name = "Key: Svarka813Scripts (CLICK TO COPY THE KEY)",
    Callback = function()
    -- The function that takes place when the button is pressed
-   end,
+pcall(function()
+setclipboard("Svarka813Scripts")
+end)
+end,
 })
 
 local Button = Tab:CreateButton({
@@ -303,10 +309,13 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "Key: Bh2GahTqpU9",
+   Name = "Key: Bh2GahTqpU9 (CLICK TO COPY THE KEY)",
    Callback = function()
    -- The function that takes place when the button is pressed
-   end,
+pcall(function()
+setclipboard("Bh2GahTqpU9")
+end)
+end,
 })
 
 local Tab = Window:CreateTab("Brainrot Battlegrounds", 4483362458) -- Title, Image
