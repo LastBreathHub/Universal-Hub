@@ -264,6 +264,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Plants-vs-
 end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Anonymous",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://rawscripts.net/raw/Plants-Vs-Brainrots-Anonymous-Plants-vs-Brainrots-55191"))()
+end,
+})
+
 local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
