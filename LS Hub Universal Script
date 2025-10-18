@@ -279,6 +279,14 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Plants-Vs-Brainrots-Anonymou
 end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Blessed Hub X",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Plants-Vs-Brainrots.lua"))()
+end,
+})
+
 local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
