@@ -86,10 +86,18 @@ end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "Key: Svarka813Scripts",
+   Name = "nil",
    Callback = function()
    -- The function that takes place when the button is pressed
 loadstring(game:HttpGet("https://pastebin.com/raw/SPQT6v5J"))()end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Ringta Hub",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/99daysloader.github.io/refs/heads/main/ringta.lua"))()
+end,
 })
 
 local Button = Tab:CreateButton({
