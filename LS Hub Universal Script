@@ -377,3 +377,13 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Volleyball-Legends-Zeckhubv1-44166"))()
 end,
 })
+
+local Tab = Window:CreateTab("No-Scope Arcade", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Demonic Hub",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
+end,
+})
