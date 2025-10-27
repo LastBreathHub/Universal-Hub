@@ -431,3 +431,5 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://rawscripts.net/raw/Don't-Wake-the-Brainrots!-Dont-wake-the-brainrots-Script-ok-53009"))()
 end,
 })
+
+Rayfield:Destroy()
